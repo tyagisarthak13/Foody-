@@ -8,7 +8,7 @@ dotenv.config({
   path: "/env",
 });
 const PORT = process.env.PORT || 5000;
-app.use("/api/auth");
+// app.use("/api/auth");
 
 app.listen(PORT, () => {
   connectDB();
