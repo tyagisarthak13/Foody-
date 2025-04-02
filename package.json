@@ -1,16 +1,8 @@
 {
   "name": "food-delivery",
-  "version": "1.0.0",
-  "description": "A food delivery app/website",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "javascript",
-    "node",
-    "react"
-  ],
-  "author": "Sarthak, Vishal, Saurabh",
-  "license": "ISC"
+  "private": "true",
+  "workspaces": [
+    "Foody_Backend",
+    "Foody_Frontend"
+  ]
 }
